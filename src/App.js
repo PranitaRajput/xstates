@@ -129,12 +129,12 @@ const App = () => {
       </select>
        {/* Display Selection */}
        {selCity && (
-        <p>
+        <span>
           You Selected 
           <span style={{fontWeight:"bold"}}>{selCity}</span>, 
           <span style={{fontWeight:"bolder"}}>{selState}</span>, 
           <span style={{fontWeight:"lighter"}}>{selCountry}</span>.
-        </p>
+        </span>
       )}
     </div>
   );
